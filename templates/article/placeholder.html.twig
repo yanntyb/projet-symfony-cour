@@ -1,0 +1,6 @@
+{% extends "base.html.twig" %}
+
+{% block body %}
+    <h1>Voici un placeholder en {{ dimensions['width'] }} x {{ dimensions['height'] }}</h1>
+    <img src="/uploads/{{ src }}" alt="{{ src }}">
+{% endblock %}
